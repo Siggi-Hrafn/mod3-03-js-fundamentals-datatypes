@@ -24,9 +24,19 @@ console.log("Addition two, same result => " + additionTwo)
 console.log(x);
 console.log("Multiplying two numbers " + x + " and " + y + " => " + multiplication);
 
-console.log("adding 100 to x value as is 150 => " + (x+=100));
-console.log("value of x as is 250 now divided by 10 => " + (x/=y));
-console.log("value of x as is 25 now, subtract 10 => " + (x-=y));
-console.log("percent value of x as is 15 now, compared to y 10 => " + (x%=y));
+console.log("Adding 100 to x value as is 150 => " + (x+=100));
+console.log("Value of x as is 250 now divided by 10 => " + (x/=y));
+console.log("Value of x as is 25 now, subtract 10 => " + (x-=y));
+console.log("Value of x is now: " + x);
+console.log("Modulus value of x as is 15 now, division remainder of y 10 => " + (x%=y));
+console.log("Value of x is now: " + x);
+console.log("Value of x as is 5 now, exponential operator ** 3 => 5*5*5 => " + (x**=3));
+console.log("Value of x is now: " + x);
+
+let z = x++;
+console.log("++ Value of x is now: " + x);
+let q = x--;
+console.log("-- Value of x is now: " + x);
+
 
 
